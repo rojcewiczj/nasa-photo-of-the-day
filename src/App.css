@@ -31,3 +31,28 @@
     transform: rotate(360deg);
   }
 }
+.dropdown {
+   opacity: 0.5 ;
+  width: 200px;
+  height: 3vh; 
+  font-size: 1.2rem;
+  background-color: rgb(94, 164, 211);
+  border: 1px solid rgb(9, 62, 83);
+  
+  border-left: none;
+  border-bottom: none;
+  z-index: 2;
+}
+.dropdown-menu {
+  opacity : 1;
+  width: 200px;
+  height: 8vh; 
+  font-size: 2.2rem;
+  font-weight: bold;
+  background-color: rgb(94, 164, 211);
+  border: 1px solid rgb(9, 62, 83);
+  border-left: none;
+  border-bottom: none;
+  z-index: 2;
+  color: rgb(241, 216, 168);
+}
