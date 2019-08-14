@@ -8,16 +8,22 @@ const Photo = ({limit}) => {
     
     useEffect(() => {
         axios
-          .get(`https://api.nasa.gov/planetary/apod`)
+          .get(`https://api.nasa.gov/planetary/apod?api_key=KMacZdIarL5RiK4YQbg2ypnayh0fDPPCvqVU7uLq`)
+         
           .then(response => {
-            const NasaPhoto = response.data.message;
+               console.log(response);
+            const NasaPhoto = response.data;
             console.log(NasaPhoto);
             setPhoto(NasaPhoto);
-          });
-      }, []);
+          })
+      }, [])
       return (
           <div className="photo-container">
+          
+               <PhotoCard data = {photo} />
+         
 
+           
           </div>
       );
 
