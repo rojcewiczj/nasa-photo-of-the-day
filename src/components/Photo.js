@@ -15,7 +15,7 @@ const Photo = ({limit}) => {
     const [photo, setPhoto] = useState([]);
     const [date, setDate] = useState('apod?api_key=KMacZdIarL5RiK4YQbg2ypnayh0fDPPCvqVU7uLq&date=2015-05-24');
     const [Name, setClassName] = useState('dropdown');
-   const [newName, setNewClassName] = useState()
+   
     console.log(randomDate);
     useEffect(() => {
         axios
