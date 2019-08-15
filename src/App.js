@@ -1,14 +1,22 @@
 import React from "react";
 import "./App.css";
+import Photo from './components/Photo';
+import { Grid, Form, Input, TextArea, Button, Select } from "semantic-ui-react";
+import 'semantic-ui-css/semantic.min.css';
 
+import FixedContainer from "./components/Container";
 function App() {
   return (
-    <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+ <body>
+
+    <div className="App"> 
+   
+<FixedContainer />
+  
+
     </div>
+</body>
+
   );
 }
 

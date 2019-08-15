@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family:  sans-serif;
 }
 
 .App-logo {
@@ -30,4 +31,56 @@
   to {
     transform: rotate(360deg);
   }
+}
+.dropdown {
+  outline: none;
+   opacity: 1 ;
+  width: 200px;
+  height: 3vh; 
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.856);
+  color: rgb(231, 231, 231);
+  border-radius: 5%;
+  border-left: none;
+  border-bottom: none;
+  z-index: 2;
+  box-shadow: 2px 4px 4px rgb(197, 196, 196);
+}
+.dropdown-menu {
+  outline: none;
+  opacity : 1;
+  width: 200px;
+  height: 3vh; 
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.747);
+  border-left: none;
+  border-bottom: none;
+  border-radius: 5%;
+  z-index: 2;
+  color: white;
+  box-shadow: 2px 4px 4px rgb(218, 131, 131)y;
+}
+.photo-card {
+  display: block;
+  text-align: center;
+  
+  
+}
+.nasa-photo {
+  max-width: 100%;
+  max-height: 100%;
+}
+.background-Containter {
+  background-color: rgb(219, 219, 219);
+  margin: 0 auto;
+  padding: 0 auto;
+  height: 140%;
+  z-index: 1;
+  box-shadow: 5px 8px 4px rgb(29, 1, 1)y;
+}
+
+.footer {
+  width: 150%;
+ 
+  
 }
