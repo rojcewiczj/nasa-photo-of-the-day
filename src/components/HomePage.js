@@ -1,12 +1,21 @@
 import React from 'react'
 import Photo from './Photo';
-
+import {
+  Container,
+  Divider,
+  Dropdown,
+  Grid,
+  Header,
+  Image,
+  List,
+  Menu,
+  Segment,
+} from 'semantic-ui-react'
 
 
 
 
 const FixedMenuLayout = () => (
-
     
   <div>
     <Menu fixed='top' inverted>

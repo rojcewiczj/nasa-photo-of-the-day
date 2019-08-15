@@ -1,17 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import PhotoCard from "./PhotoCard";
-import {
-    Container,
-    Divider,
-    Dropdown,
-    Grid,
-    Header,
-    Image,
-    List,
-    Menu,
-    Segment,
-  } from 'semantic-ui-react'
+
 
 
 function getRandomInt(min, max) {
@@ -47,7 +37,7 @@ const Photo = ({limit}) => {
           <div className="photo-container">
 
            
-               <button className= {Name}   onMouseOver={() => setClassName("dropdown-menu")} onMouseLeave= {()=> setClassName("dropdown")} 
+              <button className= {Name}   onMouseOver={() => setClassName("dropdown-menu")} onMouseLeave= {()=> setClassName("dropdown")} 
                onClick={() => setDate(randomDate())} >New Day!</button>
             
           

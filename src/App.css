@@ -32,37 +32,41 @@
   }
 }
 .dropdown {
-   opacity: 0.5 ;
+  outline: none;
+   opacity: 1 ;
   width: 200px;
   height: 3vh; 
   font-size: 1.2rem;
-  background-color: rgb(94, 164, 211);
-  border: 1px solid rgb(9, 62, 83);
+  background-color: rgba(0, 0, 0, 0.856);
+  color: rgb(231, 231, 231);
   border-radius: 5%;
   border-left: none;
   border-bottom: none;
   z-index: 2;
-  box-shadow: 5px 10px 10px grey;
+  box-shadow: 2px 4px 4px rgb(197, 196, 196);
 }
 .dropdown-menu {
-  opacity : 0.7;
+  outline: none;
+  opacity : 1;
   width: 200px;
-  height: 8vh; 
-  font-size: 2.2rem;
-  font-weight: bold;
-  background-color: rgb(94, 164, 211);
-  border: 1px solid rgb(9, 62, 83);
+  height: 3vh; 
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.747);
   border-left: none;
   border-bottom: none;
   border-radius: 5%;
   z-index: 2;
-  color: rgb(241, 216, 168);
-  box-shadow: 5px 10px 10px grey;
+  color: white;
+  box-shadow: 2px 4px 4px rgb(194, 193, 193)y;
 }
 .photo-card {
   display: block;
   text-align: center;
-
   
+  
+}
+.nasa-photo {
+  max-width: 100%;
+  max-height: 100%;
 }
 
