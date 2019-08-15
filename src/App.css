@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family:  sans-serif;
 }
 
 .App-logo {
@@ -57,7 +58,7 @@
   border-radius: 5%;
   z-index: 2;
   color: white;
-  box-shadow: 2px 4px 4px rgb(194, 193, 193)y;
+  box-shadow: 2px 4px 4px rgb(218, 131, 131)y;
 }
 .photo-card {
   display: block;
@@ -69,4 +70,17 @@
   max-width: 100%;
   max-height: 100%;
 }
+.background-Containter {
+  background-color: rgb(219, 219, 219);
+  margin: 0 auto;
+  padding: 0 auto;
+  height: 140%;
+  z-index: 1;
+  box-shadow: 5px 8px 4px rgb(29, 1, 1)y;
+}
 
+.footer {
+  width: 150%;
+ 
+  
+}

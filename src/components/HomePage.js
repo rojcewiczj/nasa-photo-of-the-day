@@ -24,25 +24,23 @@ const FixedMenuLayout = () => (
        NASA photo-of-the-day
         </Menu.Item>
         <Menu.Item as='a'>Home</Menu.Item>
-
-        
           <Dropdown.Menu>
             <Dropdown.Item></Dropdown.Item>
           </Dropdown.Menu>
-       
       </Container>
     </Menu>
+    <Container text style={{ marginTop: '2.5em' }}>
+   
 
-    <Container text style={{ marginTop: '7em' }}>
     <Photo />
-
+  
     </Container>
-
-    <Segment inverted vertical style={{ margin: '5em 0em 0em', padding: '5em 0em' }}>
+  
+    <Segment  className = "footer" inverted vertical style={{ margin: '5em 0em 0em', padding: '5em 0em' }}>
       <Container textAlign='center'>
             
         
-          <Grid.Column width={7}>
+          <Grid.Column width={20}>
             <Header inverted as='h4' content='Support NASA' />
             <p>
               learn how you cna help support NASA!

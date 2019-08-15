@@ -35,7 +35,10 @@ const Photo = ({limit}) => {
 
       return (
           <div className="photo-container">
-
+              <br>
+              
+              
+              </br>
            
               <button className= {Name}   onMouseOver={() => setClassName("dropdown-menu")} onMouseLeave= {()=> setClassName("dropdown")} 
                onClick={() => setDate(randomDate())} >New Day!</button>
